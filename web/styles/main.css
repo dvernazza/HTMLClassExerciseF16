@@ -1,0 +1,42 @@
+body {
+    font-family: "PT Sans Narrow", sans-seriff;  
+}
+h2.halloween{
+    font-style:italic;
+    color: orange;
+    text-shadow: 2px 2px 2px black;   
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+p.copyright{
+    text-align: center;
+} 
+ h2.welcome::first-letter { 
+    font-size: 150%;
+    color: black;  
+}
+a:link {
+    color:orange;
+    font-size: 20px;
+}
+a:hover {
+    color:green;
+}
+ .pumpkin {
+     float: left;
+     margin-left: 0px;
+     height:100px;
+     width:92px;
+     margin-right: 20px;
+}
+header{
+    text-align: left;
+    margin-top: 0px;      
+}
