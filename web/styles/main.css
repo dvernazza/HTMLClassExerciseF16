@@ -1,42 +1,77 @@
+html{
+ background-image: url('../images/bats.gif')
+}
+
 body {
-    font-family: "PT Sans Narrow", sans-seriff;  
+ background-color: white;
+ box-shadow: 15px 15px 10px black;
+ border-style: solid;
+ font-family: "PT Sans Narrow", sans-seriff;  
+ margin: auto;
+ padding: 10px;
+ width: 800px;   
 }
-h2.halloween{
-    font-style:italic;
-    color: orange;
-    text-shadow: 2px 2px 2px black;   
+
+h2.halloween{ 
 }
+
 h2{
-    font-size: 36px;
+ font-size: 36px;
 }
+
 h3{
-    font-size: 30px;
+ font-size: 30px;
 }
+
 p{
-    font-size: 20px;
+ font-size: 20px;
 }
+
 p.copyright{
-    text-align: center;
+ text-align: center;
 } 
- h2.welcome::first-letter { 
-    font-size: 150%;
-    color: black;  
+
+h2.welcome::first-letter { 
+ color: black; 
+ font-size: 150%;  
 }
+
 a:link {
-    color:orange;
-    font-size: 20px;
+ color:orange;
+ font-size: 20px;
 }
+
 a:hover {
-    color:green;
+ color:green;
 }
- .pumpkin {
-     float: left;
-     margin-left: 0px;
-     height:100px;
-     width:92px;
-     margin-right: 20px;
+
+.pumpkin {
+ float: left;
+ height: 100px;
+ margin-left: 0px;
+ margin-right: 20px;
+ width: 92px;   
 }
+
 header{
-    text-align: left;
-    margin-top: 0px;      
+ background: linear-gradient(45deg,white,orange,orange,black);
+ border-bottom-style: solid;
+ margin-left: -10px;
+ margin-right: -10px;
+ margin-top: 0px; 
+ margin-top: -40px;
+ text-align: left; 
+}
+
+footer{
+ background: linear-gradient(45deg,black,orange,orange,white);
+ border-top-style: solid;
+ margin-bottom: -30px;
+ margin-left: -10px;
+ margin-right: -10px;
+    
+}
+
+main{
+ margin-bottom: -20px;
 }
