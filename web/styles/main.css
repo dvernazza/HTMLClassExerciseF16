@@ -1,5 +1,5 @@
 html{
- background-image: url('../images/bats.gif')
+ background-image: url('../images/bats.gif');
 }
 
 body {
@@ -9,7 +9,7 @@ body {
  font-family: "PT Sans Narrow", sans-seriff;  
  margin: auto;
  padding: 10px;
- width: 800px;   
+ width: 800px;
 }
 
 h2.halloween{ 
@@ -68,10 +68,21 @@ footer{
  border-top-style: solid;
  margin-bottom: -30px;
  margin-left: -10px;
- margin-right: -10px;
-    
+ margin-right: -10px;  
 }
 
 main{
  margin-bottom: -20px;
+ margin-top: -20px;
+}
+
+#sidebar
+{
+ background: white;
+ float: left;
+ height: 700px;
+ margin-top: 10px;
+ padding-top: 0px;
+ width: 115px;
+ z-index: 1;
 }
