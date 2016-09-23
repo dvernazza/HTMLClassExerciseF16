@@ -37,7 +37,13 @@ h2.welcome::first-letter {
 }
 
 li.top a:link {
- color:white;
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+li.tops a:link {
+ color: orange;
  font-size: 20px;
  text-decoration: none;
 }
@@ -102,7 +108,7 @@ main{
  list-style-type: none;
  margin:0;
  margin-left: -10px;
- margin-right: -50px;
+ margin-right: -40px;
  margin-top: 20px;
  overflow: hidden;
  padding: 0;
@@ -110,7 +116,11 @@ main{
 
 li.top {
  float: left;
- width: 165px; 
+ width: 164px; 
+}
+li.tops {
+ float: left;
+ width: 164px; 
 }
 
 li.top a {
@@ -118,6 +128,19 @@ li.top a {
  padding: 14px 20px;
  background-color: black;
  text-align: center;   
+}
+li.tops a {
+ display: block;
+ padding: 14px 20px;
+ background-color: black;
+ text-align: center;   
+}
+
+li.top a:hover {
+ background-color: grey;
+}
+li.tops a:hover {
+ background-color: grey;
 }
 
 li.box {
