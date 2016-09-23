@@ -36,13 +36,24 @@ h2.welcome::first-letter {
  font-size: 150%;  
 }
 
-a:link {
- color:orange;
+li.top a:link {
+ color:white;
  font-size: 20px;
+ text-decoration: none;
+}
+
+li.box a:link {
+ color: black;
+ font-size: 20px;
+ text-decoration: none
 }
 
 a:hover {
  color:green;
+}
+
+a:link {
+ color: orange;
 }
 
 .pumpkin {
@@ -81,8 +92,54 @@ main{
  background: white;
  float: left;
  height: 700px;
- margin-top: 10px;
+ list-style-type: none;
+ margin-left: -10px;
+ margin-top: 45px;
  padding-top: 0px;
  width: 115px;
- z-index: 1;
 }
+#navigate {
+ list-style-type: none;
+ margin:0;
+ margin-left: -10px;
+ margin-right: -50px;
+ margin-top: 20px;
+ overflow: hidden;
+ padding: 0;
+}
+
+li.top {
+ float: left;
+ width: 165px; 
+}
+
+li.top a {
+ display: block;
+ padding: 14px 20px;
+ background-color: black;
+ text-align: center;   
+}
+
+li.box {
+ background-color: orange;
+ border: 3px solid black;
+ margin-bottom: 5px;
+ margin-left: -30px;
+ margin-right: 15px;
+ padding-bottom: 5px;
+ padding-left: 20px;
+ padding-right: 30px;
+ padding-top: 5px;
+ text-align: left;
+ width: 80px;  
+}
+
+a.big {
+ display:block;
+ width:100px;
+}
+    
+
+
+
+    
