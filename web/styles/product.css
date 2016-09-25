@@ -1,4 +1,4 @@
-html{
+html {
  background-image: url('../images/bats.gif');
 }
 
@@ -10,25 +10,27 @@ body {
  margin: auto;
  padding: 10px;
  width: 800px;
+ height: 670px;
 }
 
-h2.halloween{ 
-    margin-bottom: -30px;
-}
-
-h2{
+h2 {
  font-size: 36px;
+ margin-bottom: -30px;
 }
 
-h3{
+h3 {
  font-size: 30px;
 }
 
-p{
+a.bold {
+ font-weight: 900;
+}
+
+p {
  font-size: 20px;
 }
 
-p.copyright{
+p.copyright {
  text-align: center;
 } 
 
@@ -43,24 +45,22 @@ li.top a:link {
  text-decoration: none;
 }
 
-li.tops a:link {
- color: orange;
- font-size: 20px;
- text-decoration: none;
-}
-
 li.box a:link {
  color: black;
  font-size: 20px;
  text-decoration: none
 }
 
-a:hover {
- color:green;
+li.right a:hover {
+ color: green;
 }
 
-a.cat:link {
- color: orange;
+a:link {
+ color: black;
+}
+
+li.right {
+ margin: 8px 0;
 }
 
 .pumpkin {
@@ -74,7 +74,7 @@ a.cat:link {
  width: auto;   
 }
 
-header{
+header {
  background: linear-gradient(45deg,white,orange,orange,black);
  border-bottom-style: solid;
  margin-left: -10px;
@@ -84,33 +84,64 @@ header{
  text-align: left; 
 }
 
-footer{
+footer {
  background: linear-gradient(45deg,black,orange,orange,white);
  border-top-style: solid;
- margin-bottom: -30px;
+ margin-bottom: 30px;
  margin-left: -10px;
- margin-right: -10px;  
+ margin-right: -10px;
+ margin-top: 260px;
+ padding: 1px;
 }
 
-main{
+main {
  margin-bottom: -20px;
  margin-top: -20px;
 }
 
-#sidebar
-{
+#sidebar {
  background: white;
  float: left;
- height: 700px;
+ height: 200px;
  list-style-type: none;
- margin-left: -10px;
- margin-top: 45px;
- padding-top: 0px;
+ margin-left: 30px;
+ margin-top: 18px;
+ padding-left: 0px;
  width: 115px;
+}
+
+h3.welcome {
+ margin-top: 11px;
+}
+
+#sidebar2 {
+ background: white;
+ background-color: #F5DEB3;
+ float: right;
+ height: 447px;
+ list-style-type: none;
+ margin-left: 45px;
+ margin-right: -10px;
+ margin-top: 0px;
+ padding-top: 0px;
+ width: 220px;
+}
+p.buy {
+ font-size: 25px;
+ font-weight: bold;
+ margin-top: 10px;
+ padding-left: 7px;
+}
+
+.otherproducts {
+ height: auto;
+ max-height: 70px;
+ max-width: 70px;
+ width: auto;
 }
 #navigate {
  list-style-type: none;
- margin:0;
+ margin: 0;
  margin-left: -10px;
  margin-right: -40px;
  margin-top: 20px;
@@ -118,22 +149,17 @@ main{
  padding: 0;
 }
 
+#pics {
+ list-style-type: none;
+}
+
 li.top {
  float: left;
  width: 164px; 
 }
-li.tops {
- float: left;
- width: 164px; 
-}
+
 
 li.top a {
- display: block;
- padding: 14px 20px;
- background-color: black;
- text-align: center;   
-}
-li.tops a {
  display: block;
  padding: 14px 20px;
  background-color: black;
@@ -143,8 +169,15 @@ li.tops a {
 li.top a:hover {
  background-color: grey;
 }
-li.tops a:hover {
- background-color: grey;
+
+p.light {
+ text-align: justify;
+}
+
+.lights {
+ float: right;
+ margin-top: -40px;
+ width: 240px;   
 }
 
 li.box {
@@ -165,6 +198,7 @@ a.big {
  display:block;
  width:100px;
 }
+    
 
 
 
