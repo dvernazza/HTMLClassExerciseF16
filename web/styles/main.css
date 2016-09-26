@@ -59,6 +59,10 @@ a:hover {
  color:green;
 }
 
+a:visited {
+    color: orange;
+}
+
 a.cat:link {
  color: orange;
 }
