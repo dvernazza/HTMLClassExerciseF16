@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Copyright (c) 2016 Dominic Vernazza -->
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <title>Halloween Store</title>
+ 
+  <link rel="stylesheet" type="text/css" href="./styles/email.css">
+ </head>
+ 
+ <body>  
+     
+  <header>
+      <a href="index.html"><img src="./images/pumpkin.gif" alt="pumpkin" id="pumpkin" class="pumpkin"></a>
+    <h2 class="halloween"> The Halloween Store</h2>
+    <h3> For the little goblin inside all of us</h3>
+  </header>
+ <main id="mainContent"> 
+      <ul id="navigate">
+  <li class="top"><a href="index.html">Home</a></li>
+  <li class="top"><a href="#productlist">Product List</a></li>
+  <li class="top"><a href="#personal">Personal</a></li>
+  <li class="top"><a href="#decorating">Decorating Ideas</a></li>
+  <li class="tops"><a href="#email">Join Email List</a></li>
+</ul>
+      <ul id="sidebar">
+         <li class="box"><a class="big" href="./slides/products/props">Props</a></li>
+        <li class="box"><a class="big" href="./slides/products/costumes">Costumes</a></li>
+        <li class="box"><a class="big" href="./slides/products/specialeffects">Special Effects</a></li>
+        <li class="box"><a class="big" href="./slides/products/masks">Masks</a></li>
+    </ul>
+     <h2 class="please">Please enter the following information</h2>
+     <form method="get" action="subscribe.html">
+         <fieldset id="personalInfo">
+              
+              <p>
+         <p>
+                <label for="firstname">First name:</label>
+                <input name="firstname" type="text" class="text" id="firstname" tabindex="100" 
+                        autofocus 
+                       required title="Your first  name">
+              </p>
+              <p>
+          <label for="lastname">Last name:</label>
+                <input name="lastname" type="text" class="text" id="lastname" 
+                       tabindex="110"   
+                       required title="Your last name">
+              </p>
+              <p>
+          <label for="email">Email:</label>
+                <input name="email" type="email" class="text" id="email" 
+                       tabindex="150"   
+                       required title="Your email address">
+              </p>
+         <p>
+                <label for="zip">5-digit Zip Code:</label>
+                <input name="zip" type="text" class="text" id="zip" tabindex="160" 
+                       pattern="^[0-9]{5}$" placeholder="Enter a 5 digit zip" title="Enter a 5 digit ZIP code">
+              </p>
+              
+              <input type="submit" value="Subscribe">
+         </fieldset>
+     </form>
+     
+ </main>
+ <footer>
+    <p class="copyright">(c) 2016 Ben Murach</p>
+ </footer>
+ </body>
+</html>
